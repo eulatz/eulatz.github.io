@@ -1,0 +1,212 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid gray;
+    border-width: 0.6px;
+    border-radius: 100px;
+    height: 200px;
+    background-image: url(imgKatalogoa/OneFreaks.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header div img {
+    width: 375px;
+}
+
+/*----------------------------------Nav--------------------------*/
+nav {
+    border: solid grey;
+    border-width: 0.6px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #a3dbcd;
+   
+
+}
+nav ul {
+    width: 28.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul li {
+    color: #ff6600; 
+    margin: 40px;   
+    display: flex;
+    justify-content: space-between;
+    font-size:  20px;
+}
+nav ol {
+    width: 28.5%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ol li {
+    color: #ff6600;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+/*---------------------------MAIN-------------------------*/
+main {
+    border: solid gray;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #c3d1c6;
+    
+}
+
+/*-----section-------*/
+section {
+    border: solid gray;
+    border-width: 0.6px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    margin: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+section span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:  #a3dbcd;;
+    width: 100%;
+    height: 75px;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid gray;
+    border-width: 0.6px;
+    margin: 10px;
+    width: 100%;
+}
+section div span {
+    width: 100%;
+}
+
+section div ul {
+    display: flex;
+    width: 60%;
+    height: 200px;
+    margin-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+}
+section div ul img {
+    width: 100%;
+   
+}
+section div ol {
+    width: 20%;
+    display: flex;
+    align-items: center;    
+    padding-left: 10px;
+}
+section ol img {
+    width: 100%;
+}
+
+
+/*------------------Aside-----------------------*/
+aside {
+    border: solid;
+    border-width: 0.6px;
+    width: 25%;
+    margin-top: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+aside span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:  #a3dbcd;;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+aside div {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    
+}
+summary {
+    color: #a3dbcd;
+}
+
+aside div h2 {
+    justify-content: center;
+    text-align: center;
+}
+aside div img {
+    width: 70%;
+}
+/*------------------ARTICLE-----------------*/
+
+article {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 10px;
+    border: solid;
+    border-width: 0.6px;
+    width: 33%;
+    margin: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+article span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #a3dbcd;
+    width: 100%;
+}
+
+article div  {
+    display: flex;
+    flex-wrap: wrap;
+    border: dashed rgb(211, 29, 59);
+    width: 100%; 
+    height: 10%; 
+    overflow: hidden; 
+    position: relative;
+    margin: 10px;
+}
+article div iframe { 
+    position: absolute; 
+    top: 50px; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    }
+
+    footer {
+        margin-top: 2%;
+        border: solid gray;
+        border-width: 0.6px;
+        width: 100%;
+        text-align: center;
+        background-color:#a3dbcd;
+        padding: 10px; 
+        }

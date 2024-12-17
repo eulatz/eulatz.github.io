@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saskia</title>
+    <link rel="stylesheet" href="saskia.css">    
+</head>
+
+<body>
+    <header>
+
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Hasiera</a></li>
+            <li><a href="katalogoa.html">Katalogoa</a></li>
+            <li><a href="nobedadeak.html">Nobedadeak</a></li>
+            <li><a href="eskaintzak.html">Eskaintzak</a></li>
+            <li><a href="kontaktua.html">Kontaktua</a></li>
+        </ul>
+    </nav>
+
+    <main>
+    <form action="procesar_carrito.php" method="POST">
+        <!-- Tabla de productos -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Produktua</th>
+                    <th>Prezioa</th>
+                    <th>Zembatekoa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="imgFunk/Caterpie.jpg" alt=""></td>
+                    <td>14.00 €</td>
+                    <td>
+                        <input type="number" name="producto1_cantidad" min="0" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="imgFunk/Nami.jpg" alt=""></td>
+                    <td>15.00 €</td>
+                    <td>
+                        <input type="number" name="producto2_cantidad" min="0" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="imgKartak/pikatxupx.jpg" alt=""></td>
+                    <td>10.00 €</td>
+                    <td>
+                        <input type="number" name="producto3_cantidad" min="0" value="0">
+                    </td>
+                </tr>
+            </tbody>
+    
+                <tr>
+                    <td></td>
+                    <td><strong>GUZTIRA</strong></td>
+                    <td> <strong>39 &euro;</strong></td>
+                </tr>
+        
+        </table>
+        <br>
+        <button type="submit">Erosi</button>
+    </form>
+    </main>
+
+    <footer>
+        &copy; 2024 One Freaks
+    </footer>
+</body>
+</html>

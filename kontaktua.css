@@ -1,0 +1,111 @@
+html {
+    
+}
+* {
+    padding: 0%; margin: 0;
+}
+body {
+    width: 96%;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+    border: solid gray;
+    border-width: 0.6px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+header {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid gray;
+    border-width: 0.6px;
+    border-radius: 100px;
+    height: 200px;
+    background-image: url(imgKatalogoa/OneFreaks.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    
+header div img {
+width: 175px;
+}
+
+/*----------------------------------NAV--------------------------------*/
+nav {
+    border: solid gray;
+    border-width: 0.6px;
+    display: inline;
+    border-radius: 98px;
+    padding: 1%;
+    width: 98%;
+    height: 50px;
+    margin-bottom: 1%;
+    background-color: #a3dbcd;
+
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    background-color: #a3dbcd;
+    margin: 15px;
+
+}
+
+nav ul li {
+    color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+/*------------------MAIN---------------------*/
+main {
+    border: solid gray;
+    border-width: 0.6px;
+    width: 40%;
+    padding: 2%;
+    margin: 5%;
+}
+main span {
+    background-color: #a3dbcd;
+    text-align: center;
+    margin-bottom: 10px;
+}
+main span h2 {
+    background-color: #a3dbcd;
+    color: #05382b;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 30px;
+}
+main form input{
+    margin-bottom: 20px;
+}
+main form textarea {
+    margin-bottom: 15px;
+}
+footer {
+    margin-top: 2%;
+    border: solid gray;
+    border-width: 0.6px;
+    width: 100%;
+    text-align: center;
+    background-color:#a3dbcd;
+    padding: 10px;
+}
+
+@MEDIA only screen and (max-width: 767px) {
+    main img {
+        width: 100px;
+    }
+}

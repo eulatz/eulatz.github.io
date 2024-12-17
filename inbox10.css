@@ -1,0 +1,67 @@
+html {
+    background: radial-gradient(to bottom, green, white);
+}
+
+*{ 
+    margin: 0 100px; padding: 0px;
+    display:grid;
+    justify-content: center;
+}
+
+body {
+    /* bordes */
+    border: solid rgb(168, 238, 6);
+    width: 766px; 
+}
+/* -------Tocar aqui a partir de aqui---------*/
+header {
+    /* bordes */
+    border: #c0138c solid;
+    background-color: aquamarine;
+
+    /* dimensiones */
+    margin: 15px;
+    padding: 15px;
+    width: 700px;
+
+    /* Transicion */ 
+    
+    
+
+}
+
+
+nav {
+    /* bordes */
+    border: dashed blue;
+    background-color: aquamarine;
+
+    /* dimensiones */
+    margin: 15px;
+    padding: 15px;
+    width: 700px;
+
+}
+
+main {
+
+    /* bordes */
+    border: dashed #c0138c;
+background-color: aquamarine;
+
+    /* dimensiones */
+    margin: 15px;
+    padding: 15px;
+    width: 700px;
+
+}
+
+footer {
+    /* bordes */
+    border: dashed;
+background-color: aquamarine;
+    /* dimensiones */
+    margin: 15px; /* se separa de otros cuadros */
+    padding: 15px; /* se centra dentro del cuadro */
+    width: 700px;
+}

@@ -1,0 +1,258 @@
+html {
+    
+}
+* {
+    padding: 0%; margin: 0;
+}
+body {
+    width: 96%;
+    padding: 1%;
+    align-items: center;
+    border: dashed;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+header {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid gray;
+    border-width: 0.6px;
+    border-radius: 100px;
+    height: 200px;
+    background-image: url(imgKatalogoa/OneFreaks.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    
+header div img {
+width: 375px;
+}
+
+/*----------------------------------NAV--------------------------------*/
+nav {
+    border: solid gray;
+    border-width: 0.6px;
+    display: inline;
+    border-radius: 98px;
+    padding: 1%;
+    width: 98%;
+    height: 50px;
+    margin-bottom: 1%;
+    background-color: #a3dbcd;
+
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    margin: 10px;
+
+}
+
+nav ul li {
+    color: blue;
+    text-align: center;
+    display: flex;
+    margin: 0 60px;
+    font-size: 20px;
+    
+}
+
+main {
+    border: solid  grey;
+    border-width: 0.6px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+main h3 {
+    width: 100px;
+}
+main h3 img {
+    width: 200px;
+}
+
+section {
+    padding: 20px;
+    border: solid grey;
+    border-width: 0.6px;
+    margin: 10px;
+    width: 66%;
+    display: flex;
+    align-items: center;
+
+}
+section img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border: solid gray;
+    border-width: 0.6px;
+}
+
+section div {
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-columns: 1fr;
+}
+
+/*------------------SECTION CONTAINER-----------*/
+
+.section-container {
+    max-width: 100%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.image-text {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.image-text img {
+    max-width: 500px;
+    height: auto;
+}
+.side-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.below-text {
+    border-top: solid grey;
+    border-width: 0.6px;
+    text-align: justify;
+    margin-top: 20px;
+    text-size-adjust: 12px;
+}
+.below-text h4 {
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+
+/*----------Segi irakurtzen-------*/
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #a3dbcd;
+    margin-bottom: 10px;
+}
+details summary:hover {
+    color: #ff9900;
+}
+details[open] summary {
+    color: #333;
+
+}
+table{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+table td, tr {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+
+}
+table a {
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+   
+}
+.boton-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.boton {
+    background-color:  #a3dbcd; 
+    color: white; 
+    border: solid;
+    padding: 10px 10px;
+    margin: 0 40px;
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Permite usar padding correctamente */
+    width: 35%;
+    font-size: 16px; /* Tamaño de texto */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animación suave */
+}
+
+/* Efecto al pasar el cursor */
+.boton:hover {
+    background-color: #45a049; /* Cambia color al pasar el cursor */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Botón deshabilitado */
+.boton:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed; /* Cambia el cursor para botones deshabilitados */
+}
+/*-----------------------------------*/
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: solid grey;
+    border-width: 0.6px;
+    width: 22%;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    }
+
+aside div {
+    border: solid grey;
+    display: block;
+    border-width: 0.6px;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: black;
+}
+aside div a {
+    color: black;
+    background-color: #a3dbcd;
+    padding: 10px;
+}
+aside div img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    margin-top: 2%;
+    border: solid gray;
+    border-width: 0.6px;
+    width: 100%;
+    text-align: center;
+    background-color:#a3dbcd;
+    padding: 10px;
+}
+
+@MEDIA only screen and (max-width: 767px) {
+    main img {
+        width: 100px;
+    }
+}

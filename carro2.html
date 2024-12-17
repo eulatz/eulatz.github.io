@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito Simple</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .producto {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .producto span {
+            font-size: 18px;
+        }
+
+        .boton {
+            display: inline-block;
+            padding: 5px 15px;
+            font-size: 14px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .boton:hover {
+            background-color: #0056b3;
+        }
+
+        .carrito {
+            margin-top: 20px;
+            padding: 10px;
+            border: 2px dashed #007bff;
+            border-radius: 5px;
+        }
+
+        .carrito p {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+    
+    <!-- Lista de productos -->
+    <div class="producto">
+        <span>Producto 1</span>
+        <a href="#producto1" class="boton">Añadir al carrito</a>
+    </div>
+    <div class="producto">
+        <span>Producto 2</span>
+        <a href="#producto2" class="boton">Añadir al carrito</a>
+    </div>
+    <div class="producto">
+        <span>Producto 3</span>
+        <a href="#producto3" class="boton">Añadir al carrito</a>
+    </div>
+
+    <!-- Simulación de carrito -->
+    <div class="carrito">
+        <p>Carrito:</p>
+        <ul>
+            <li>Producto 1: 1 unidad</li>
+            <li>Producto 2: 0 unidades</li>
+            <li>Producto 3: 0 unidades</li>
+        </ul>
+    </div>
+</body>
+</html>

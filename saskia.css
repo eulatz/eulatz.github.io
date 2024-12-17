@@ -1,0 +1,130 @@
+html {
+    
+}
+* {
+    padding: 0%; margin: 0;
+}
+body {
+    width: 96%;
+    padding: 1%;
+    align-items: center;
+    border: dashed;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+header {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid gray;
+    border-width: 0.6px;
+    border-radius: 100px;
+    height: 200px;
+    background-image: url(imgKatalogoa/OneFreaks.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*----------------------------------NAV--------------------------------*/
+nav {
+    border: solid gray;
+    border-width: 0.6px;
+    display: inline;
+    border-radius: 98px;
+    padding: 1%;
+    width: 98%;
+    height: 50px;
+    margin-bottom: 1%;
+    background-color: #a3dbcd;
+
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    background-color: #a3dbcd;
+    margin: 15px;
+
+}
+
+nav ul li {
+    color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+/*--------------------------------------TABLAK------------------------------------------*/
+main {
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #a3dbcd;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0.1%;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 5px;
+    width: 0.7%;
+    height: 50px;
+}
+
+th,td img {
+    width: 100%;
+}
+th,td img:hover {
+    transform: scale(1.2);
+}
+
+.total {
+    text-align: right;
+    font-weight: bold;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+}
+    
+header div img {
+width: 375px;
+}
+
+
+
+
+
+footer {
+    margin-top: 2%;
+    border: solid gray;
+    border-width: 0.6px;
+    width: 100%;
+    text-align: center;
+    background-color:#a3dbcd;
+    padding: 10px;
+}
+
+@MEDIA only screen and (max-width: 767px) {
+    main img {
+        width: 100px;
+    }
+}

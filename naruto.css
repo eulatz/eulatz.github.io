@@ -1,0 +1,209 @@
+html {
+    
+}
+* {
+    padding: 0%; margin: 0;
+}
+body {
+    width: 79%:
+    padding: 1%;
+    align-items: center;
+    border: dashed;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+header {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid gray;
+    border-width: 0.6px;
+    border-radius: 100px;
+    height: 200px;
+    background-image: url(imgKatalogoa/OneFreaks.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    
+header div img {
+width: 375px;
+}
+
+/*----------------------------------NAV--------------------------------*/
+nav {
+    border: solid gray;
+    border-width: 0.6px;
+    display: inline;
+    border-radius: 98px;
+    padding: 1%;
+    width: 98%;
+    height: 50px;
+    margin-bottom: 1%;
+    background-color: #a3dbcd;
+
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    background-color: #a3dbcd;
+    margin: 15px;
+
+}
+
+nav ul li {
+    color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+/*------------------Main------------------*/
+
+main {
+    display:  flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-top: solid gray;
+    border-width: 0.6px;
+    margin: 20px;
+    width: 98%;
+    background-color:#f9f5F8
+
+    
+    
+}
+main img {
+    width: 70%;
+    height: 200px;
+}
+section {
+    width: 60%;
+    padding: 20px;
+    border: solid grey;
+    border-width: 0.6px;
+    margin: 0 20px;
+    background-color: #f9f9f9;
+}
+
+main section img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+section h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #a3dbcd;
+    padding: 10px;
+    color: rgb(53, 97, 82);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    background-color: #e2ece9;
+}
+.container img {
+    width: 100%;
+}
+
+.taula {
+    text-align: center;
+    border: solid gray;
+    border-width: 0.6px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.taula img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.taula a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding:10px;
+
+}
+.taula p {
+    font-size: 14px;
+    color: blue;
+}
+
+/*------------------------------Aside------------------*/
+.fix-aside {
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    left: 65%;
+    top: 330px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: solid gray;
+    background-color:#e2ece9;
+    border-width: 0.6px;
+    width:27%;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+.aside-taula {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+    border-width: 0.6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: #f9f9f9
+    ;
+    
+}
+.aside-taula img{
+    width: 100%;
+    height: 90%;
+    
+}
+
+.aside {
+    display:flex;
+    flex-wrap: wrap;
+    left: 65%;
+    top: 330px;
+    justify-content: center;
+
+    border: solid gray;
+    border-width: 0.6px;
+
+       
+      }
+
+
+
+footer {
+    margin-top: 2%;
+    border: solid gray;
+    border-width: 0.6px;
+    width: 100%;
+    text-align: center;
+    background-color:#a3dbcd;
+    padding: 10px; 
+    }
+    
+    @MEDIA only screen and (max-width: 767px) {
+        main img {
+            width: 100px;
+        }
+    }
+}
